@@ -1,0 +1,6 @@
+/configs/karma/build
+
+/node_modules
+/build
+/index.html
+/lib

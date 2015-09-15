@@ -1,3 +1,3 @@
-## A TodoMVC Implementation with Flux and ImmutableJS
+## A TodoMVC Implementation with Redux and ImmutableJS
 
-##
+## 

@@ -3,6 +3,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = function makeClientProductionConfig(config) {
   config.plugins.push(
+    new webpack.optimize.DedupePlugin(),
     new ExtractTextPlugin('[name].[contenthash].css'),
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: false,

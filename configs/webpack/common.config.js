@@ -44,7 +44,7 @@ function makeDefaultConfig() {
     },
     eslint: {configFile: env.inProject('.eslintrc'), failOnError: env.__PROD__},
     plugins: [
-      new webpack.optimize.DedupePlugin(),
+      //new webpack.optimize.DedupePlugin(),
       new webpack.DefinePlugin({
         'process.env': {
           'NODE_ENV': JSON.stringify(env.NODE_ENV)
@@ -67,4 +67,3 @@ function makeDefaultConfig() {
 module.exports = function makeConfig(configModifier) {
   return assign({}, makeDefaultConfig(), configModifier);
 };
-

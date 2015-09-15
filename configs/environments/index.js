@@ -39,6 +39,6 @@ module.exports = exports = {
   ALIAS: alias,
 
   // server configuration
-  WEBPACK_PORT: 3000
+  WEBPACK_PORT: 5000
   //SERVER_PORT: process.env.PORT || 4000
 };
